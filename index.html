@@ -42,7 +42,7 @@
         /* Service Details Section */
         .service-detail-card { background: #ffffff; border-radius: 0.75rem; padding: 1.5rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03), 0 2px 4px -2px rgba(0,0,0,0.03); transition: all 0.3s ease; border: 1px solid #e2e8f0; text-align: center; }
         .service-detail-card:hover { transform: translateY(-3px); box-shadow: 0 6px 10px -3px rgba(0,0,0,0.05), 0 4px 6px -4px rgba(0,0,0,0.05); }
-        .service-detail-icon { color: #1d4ed8; font-size: 2rem; margin-bottom: 1rem; } /* Slightly smaller/different color */
+        .service-detail-icon { color: #1d4ed8; font-size: 2rem; margin-bottom: 1rem; }
          /* Care Professionals Section */
         .professional-point-card { text-align: center; padding: 1rem; }
         .professional-icon { color: #2563eb; font-size: 2.2rem; margin-bottom: 1rem; }
@@ -94,7 +94,7 @@
     <nav class="navbar">
         <div class="container mx-auto px-6 py-3 flex items-center justify-between">
             <a href="#" class="flex items-center space-x-2">
-                <i class="fas fa-heartbeat text-blue-600 text-3xl"></i> <!-- Consider custom logo icon -->
+                <i class="fas fa-heartbeat text-blue-600 text-3xl"></i>
                 <span class="text-2xl font-bold text-slate-800 tracking-tight">Vietnam Care</span>
             </a>
             <div>
@@ -109,14 +109,14 @@
     <section class="hero-section" id="home">
         <div class="container mx-auto px-6 text-center">
             <h1 class="mb-5 max-w-3xl mx-auto">Chăm Sóc Cha Mẹ Chuyên Nghiệp.<br> An Tâm Vững Bước Sự Nghiệp.</h1>
-            <p class="text-sm mt-[-1rem] mb-5 text-slate-200 max-w-xl mx-auto">Giải pháp chăm sóc chuyên nghiệp, giúp cha mẹ an hưởng tuổi già, con cái an tâm sự nghiệp.</p> <!-- Added sub-text -->
+            <p class="text-sm mt-[-1rem] mb-5 text-slate-200 max-w-xl mx-auto">Giải pháp chăm sóc chuyên nghiệp, giúp cha mẹ an hưởng tuổi già, con cái an tâm sự nghiệp.</p>
             <p class="subtitle mb-8">
                 Dịch vụ chăm sóc cao cấp tại nhà, giúp cha mẹ sống vui khỏe, độc lập. <br class="hidden md:block">Giải pháp tin cậy cho người con thành đạt.
             </p>
             <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
                 <input type="tel" placeholder="Nhập số điện thoại của bạn..." class="custom-input w-full sm:w-64">
-                <a href="https://zalo.me/YOUR_ZALO_NUMBER" target="_blank" rel="noopener noreferrer" class="hero-cta-button text-white font-semibold px-8 py-3 rounded-full text-base w-full sm:w-auto flex items-center justify-center space-x-2">
-                    <i class="fab fa-rocketchat"></i> <!-- Consider Zalo specific icon -->
+                <a href="https://zalo.me/0966268008" target="_blank" rel="noopener noreferrer" class="hero-cta-button text-white font-semibold px-8 py-3 rounded-full text-base w-full sm:w-auto flex items-center justify-center space-x-2">
+                    <i class="fab fa-rocketchat"></i> <!-- Using rocketchat as Zalo icon proxy -->
                     <span>Tư Vấn Miễn Phí Qua Zalo</span>
                 </a>
             </div>
@@ -133,36 +133,33 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Step 1 -->
                 <div class="step-card">
-                    <!-- Illustration: Friendly person on phone/Zalo call, taking notes -->
-                    <div class="mb-4 h-24 flex items-center justify-center text-blue-500"> <!-- Placeholder for Illustration -->
-                         <i class="fas fa-phone-alt fa-3x"></i> <!-- Placeholder Icon -->
+                    <div class="mb-4 h-24 flex items-center justify-center text-blue-500">
+                         <i class="fas fa-phone-volume fa-3x"></i> <!-- Changed icon slightly -->
                     </div>
                     <span class="step-number">1</span>
                     <h3 class="text-xl font-semibold mb-2 text-slate-700">Liên Hệ & Thấu Hiểu</h3>
                     <p class="text-slate-600">Gọi điện hoặc Zalo. Chuyên viên sẽ lắng nghe, tư vấn và tìm hiểu nhu cầu của gia đình.</p>
-                    <p class="text-sm text-slate-500 mt-2"><i>Chúng tôi sẽ lắng nghe kỹ lưỡng về tình trạng sức khỏe, thói quen sinh hoạt, sở thích và cả những mong muốn riêng của cha mẹ bạn cũng như nỗi lo của gia đình.</i></p> <!-- Expanded Explanation -->
+                    <p class="text-sm text-slate-500 mt-2"><i>Chúng tôi sẽ lắng nghe kỹ lưỡng về tình trạng sức khỏe, thói quen sinh hoạt, sở thích và cả những mong muốn riêng của cha mẹ bạn cũng như nỗi lo của gia đình.</i></p>
                 </div>
                 <!-- Step 2 -->
                 <div class="step-card">
-                     <!-- Illustration: Nurse respectfully talking with an elderly person at home, holding a clipboard (plan) -->
-                     <div class="mb-4 h-24 flex items-center justify-center text-blue-500"> <!-- Placeholder for Illustration -->
-                         <i class="fas fa-clipboard-list fa-3x"></i> <!-- Placeholder Icon -->
+                     <div class="mb-4 h-24 flex items-center justify-center text-blue-500">
+                         <i class="fas fa-clipboard-check fa-3x"></i> <!-- Changed icon slightly -->
                     </div>
                     <span class="step-number">2</span>
                     <h3 class="text-xl font-semibold mb-2 text-slate-700">Đánh Giá & Lập Kế Hoạch Riêng</h3>
                     <p class="text-slate-600">Đến tận nơi khảo sát (nếu cần), xây dựng kế hoạch chăm sóc chi tiết, phù hợp nhất với người thân của bạn.</p>
-                    <p class="text-sm text-slate-500 mt-2"><i>Chuyên viên (có thể là điều dưỡng) sẽ đến gặp gỡ trực tiếp (nếu cần), đánh giá môi trường sống và các nhu cầu cụ thể. Từ đó, chúng tôi cùng gia đình xây dựng một Kế Hoạch Chăm Sóc chi tiết, rõ ràng.</i></p> <!-- Expanded Explanation -->
+                    <p class="text-sm text-slate-500 mt-2"><i>Chuyên viên (có thể là điều dưỡng) sẽ đến gặp gỡ trực tiếp (nếu cần), đánh giá môi trường sống và các nhu cầu cụ thể. Từ đó, chúng tôi cùng gia đình xây dựng một Kế Hoạch Chăm Sóc chi tiết, rõ ràng.</i></p>
                 </div>
                 <!-- Step 3 -->
                 <div class="step-card">
-                    <!-- Illustration: Caregiver assisting a senior + small report icon (phone/document) -->
-                     <div class="mb-4 h-24 flex items-center justify-center text-blue-500"> <!-- Placeholder for Illustration -->
-                         <i class="fas fa-user-nurse fa-3x"></i> <!-- Placeholder Icon -->
+                     <div class="mb-4 h-24 flex items-center justify-center text-blue-500">
+                         <i class="fas fa-calendar-alt fa-3x"></i> <!-- Changed icon slightly -->
                     </div>
                     <span class="step-number">3</span>
                     <h3 class="text-xl font-semibold mb-2 text-slate-700">Bắt Đầu Chăm Sóc & Báo Cáo</h3>
                     <p class="text-slate-600">Đội ngũ y tá/điều dưỡng chuyên nghiệp thực hiện chăm sóc, kèm báo cáo minh bạch và trao đổi thường xuyên.</p>
-                    <p class="text-sm text-slate-500 mt-2"><i>Điều dưỡng/chăm sóc viên được lựa chọn kỹ lưỡng, phù hợp nhất sẽ bắt đầu công việc. Gia đình sẽ nhận báo cáo định kỳ (qua Zalo/App/Email) và luôn có thể trao đổi với Quản lý Chăm sóc.</i></p> <!-- Expanded Explanation -->
+                    <p class="text-sm text-slate-500 mt-2"><i>Điều dưỡng/chăm sóc viên được lựa chọn kỹ lưỡng, phù hợp nhất sẽ bắt đầu công việc. Gia đình sẽ nhận báo cáo định kỳ (qua Zalo/App/Email) và luôn có thể trao đổi với Quản lý Chăm sóc.</i></p>
                 </div>
             </div>
         </div>
@@ -177,35 +174,31 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Feature 1 -->
                 <div class="feature-card-modern">
-                    <!-- Consider custom icon: Shield/Professional -->
                     <i class="fas fa-user-shield feature-icon"></i>
                     <h3 class="text-xl font-semibold mb-3 text-slate-700">Đội Ngũ Chuyên Môn Cao</h3>
                     <p class="text-slate-600">Y tá/điều dưỡng viên có chứng chỉ, kinh nghiệm, lý lịch rõ ràng và được đào tạo nghiệp vụ thường xuyên.</p>
-                     <p class="text-sm text-slate-500 mt-2"><i>Đảm bảo cha mẹ bạn được chăm sóc đúng kỹ thuật, an toàn, giảm thiểu rủi ro so với người giúp việc thông thường.</i></p> <!-- Expanded Benefit -->
+                     <p class="text-sm text-slate-500 mt-2"><i>Đảm bảo cha mẹ bạn được chăm sóc đúng kỹ thuật, an toàn, giảm thiểu rủi ro so với người giúp việc thông thường.</i></p>
                 </div>
                 <!-- Feature 2 -->
                 <div class="feature-card-modern">
-                     <!-- Consider custom icon: Focused Care Levels (e.g., 1&2) -->
                      <i class="fas fa-tasks feature-icon"></i>
                     <h3 class="text-xl font-semibold mb-3 text-slate-700">Chuyên Sâu Cấp Độ 1 & 2</h3>
                     <p class="text-slate-600">Hỗ trợ sinh hoạt thiết yếu, trò chuyện, đồng hành, theo dõi sức khỏe, giúp người cao tuổi sống vui, sống khỏe.</p>
-                    <p class="text-sm text-slate-500 mt-2"><i>Chúng tôi tập trung vào việc duy trì và nâng cao chất lượng sống tại nhà, giúp người cao tuổi độc lập lâu hơn và phòng ngừa các vấn đề sức khỏe.</i></p> <!-- Expanded Benefit -->
+                    <p class="text-sm text-slate-500 mt-2"><i>Chúng tôi tập trung vào việc duy trì và nâng cao chất lượng sống tại nhà, giúp người cao tuổi độc lập lâu hơn và phòng ngừa các vấn đề sức khỏe.</i></p>
                 </div>
                 <!-- Feature 3 -->
                 <div class="feature-card-modern">
-                     <!-- Consider custom icon: Process/Checklist vs Simple Broom -->
                      <i class="fas fa-medal feature-icon"></i>
                     <h3 class="text-xl font-semibold mb-3 text-slate-700">Vượt Trội Hơn Người Giúp Việc</h3>
                     <p class="text-slate-600">Quy trình bài bản, theo dõi y tế cơ bản, xử lý tình huống và báo cáo rõ ràng – đảm bảo an toàn tối ưu.</p>
-                     <p class="text-sm text-slate-500 mt-2"><i>Quy trình chuẩn hóa, kỹ năng y tế cơ bản và khả năng báo cáo giúp bạn nắm bắt tình hình chính xác, không còn phải 'đoán mò'.</i></p> <!-- Expanded Benefit -->
+                     <p class="text-sm text-slate-500 mt-2"><i>Quy trình chuẩn hóa, kỹ năng y tế cơ bản và khả năng báo cáo giúp bạn nắm bắt tình hình chính xác, không còn phải 'đoán mò'.</i></p>
                 </div>
                  <!-- Feature 4 -->
                 <div class="feature-card-modern">
-                     <!-- Consider custom icon: Family Shield/Peace of Mind -->
                     <i class="fas fa-shield-alt feature-icon"></i>
                     <h3 class="text-xl font-semibold mb-3 text-slate-700">Gia Đình Hoàn Toàn An Tâm</h3>
                     <p class="text-slate-600">Quy trình giám sát chặt chẽ, báo cáo định kỳ, quản lý hỗ trợ 24/7. Giúp bạn tập trung cho công việc và cuộc sống.</p>
-                    <p class="text-sm text-slate-500 mt-2"><i>Hệ thống quản lý, giám sát và hỗ trợ 24/7 của chúng tôi là 'cánh tay nối dài' đáng tin cậy của bạn trong việc chăm sóc cha mẹ.</i></p> <!-- Expanded Benefit -->
+                    <p class="text-sm text-slate-500 mt-2"><i>Hệ thống quản lý, giám sát và hỗ trợ 24/7 của chúng tôi là 'cánh tay nối dài' đáng tin cậy của bạn trong việc chăm sóc cha mẹ.</i></p>
                 </div>
             </div>
         </div>
@@ -222,11 +215,10 @@
                 <!-- Level 1 Card -->
                 <div class="border border-gray-200 rounded-lg p-6 shadow-sm bg-gray-50 flex flex-col">
                    <div class="flex-grow">
-                        <!-- Illustration: Companionship (e.g., caregiver and senior chatting over tea) -->
-                        <div class="mb-3 h-16 text-green-600"> <i class="fas fa-comments fa-2x"></i> <!-- Placeholder Icon --> </div>
+                        <div class="mb-3 h-16 flex items-center justify-center text-green-600"> <i class="fas fa-comments fa-2x"></i> </div>
                         <h3 class="font-semibold text-lg mb-2 text-blue-700">Cấp 1: Hỗ Trợ Cơ Bản</h3>
                         <p class="text-sm text-slate-600 mb-3"><strong>Nhu cầu:</strong> Cần người trò chuyện, nhắc nhở thuốc, đi dạo, hỗ trợ nhẹ nhàng các hoạt động hàng ngày.</p>
-                        <p class="text-xs text-slate-500 mb-3"><i>Ví dụ: Trò chuyện, đọc sách báo, chơi cờ, đi dạo công viên, nhắc uống thuốc đúng giờ, chuẩn bị bữa ăn đơn giản, giữ nhà cửa gọn gàng...</i></p> <!-- Example Activities -->
+                        <p class="text-xs text-slate-500 mb-3"><i>Ví dụ: Trò chuyện, đọc sách báo, chơi cờ, đi dạo công viên, nhắc uống thuốc đúng giờ, chuẩn bị bữa ăn đơn giản, giữ nhà cửa gọn gàng...</i></p>
                         <p class="text-sm text-slate-600"><strong>Giải pháp:</strong> Đồng hành, giám sát an toàn, hỗ trợ tinh thần.</p>
                     </div>
                     <span class="care-level-badge badge-green">Vietnam Care Rất Mạnh</span>
@@ -234,11 +226,10 @@
                 <!-- Level 2 Card -->
                 <div class="border border-gray-200 rounded-lg p-6 shadow-sm bg-gray-50 flex flex-col">
                     <div class="flex-grow">
-                         <!-- Illustration: Gentle assistance (e.g., caregiver helping senior with walker or medication) -->
-                         <div class="mb-3 h-16 text-green-600"> <i class="fas fa-hands-helping fa-2x"></i> <!-- Placeholder Icon --> </div>
+                         <div class="mb-3 h-16 flex items-center justify-center text-green-600"> <i class="fas fa-hands-helping fa-2x"></i> </div>
                         <h3 class="font-semibold text-lg mb-2 text-blue-700">Cấp 2: Hỗ Trợ & Theo Dõi Y Tế</h3>
                         <p class="text-sm text-slate-600 mb-3"><strong>Nhu cầu:</strong> Cần trợ giúp nhiều hơn về vệ sinh, ăn uống, di chuyển; theo dõi chỉ số cơ bản, quản lý thuốc.</p>
-                         <p class="text-xs text-slate-500 mb-3"><i>Ví dụ: Hỗ trợ tắm rửa, thay đồ, vệ sinh cá nhân, ăn uống (có thể cần đút), di chuyển (dìu đi, hỗ trợ xe lăn), theo dõi dấu hiệu sinh tồn cơ bản (huyết áp, nhiệt độ), quản lý thuốc phức tạp hơn...</i></p> <!-- Example Activities -->
+                         <p class="text-xs text-slate-500 mb-3"><i>Ví dụ: Hỗ trợ tắm rửa, thay đồ, vệ sinh cá nhân, ăn uống (có thể cần đút), di chuyển (dìu đi, hỗ trợ xe lăn), theo dõi dấu hiệu sinh tồn cơ bản (huyết áp, nhiệt độ), quản lý thuốc phức tạp hơn...</i></p>
                         <p class="text-sm text-slate-600"><strong>Giải pháp:</strong> Điều dưỡng hỗ trợ sinh hoạt, theo dõi sức khỏe.</p>
                     </div>
                     <span class="care-level-badge badge-green">Vietnam Care Rất Mạnh</span>
@@ -246,8 +237,7 @@
                 <!-- Level 3 Card -->
                 <div class="border border-gray-200 rounded-lg p-6 shadow-sm bg-gray-50 flex flex-col">
                      <div class="flex-grow">
-                         <!-- Illustration/Icon: Neutral medical (e.g., bandage/vital sign monitor) -->
-                         <div class="mb-3 h-16 text-orange-600"> <i class="fas fa-notes-medical fa-2x"></i> <!-- Placeholder Icon --> </div>
+                         <div class="mb-3 h-16 flex items-center justify-center text-orange-600"> <i class="fas fa-notes-medical fa-2x"></i> </div>
                         <h3 class="font-semibold text-lg mb-2 text-orange-700">Cấp 3: Y Tế Phức Tạp Hơn</h3>
                         <p class="text-sm text-slate-600 mb-3"><strong>Nhu cầu:</strong> Chăm sóc vết thương, quản lý bệnh nặng, hỗ trợ hô hấp (không xâm lấn), ăn qua sonde.</p>
                         <p class="text-sm text-slate-600"><strong>Giải pháp:</strong> Cần điều dưỡng chuyên sâu hoặc cơ sở y tế.</p>
@@ -257,8 +247,7 @@
                 <!-- Level 4 Card -->
                 <div class="border border-gray-200 rounded-lg p-6 shadow-sm bg-gray-50 flex flex-col">
                     <div class="flex-grow">
-                         <!-- Illustration/Icon: Higher medical need (e.g., hospital outline/ECG line) -->
-                         <div class="mb-3 h-16 text-red-600"> <i class="fas fa-procedures fa-2x"></i> <!-- Placeholder Icon --> </div>
+                         <div class="mb-3 h-16 flex items-center justify-center text-red-600"> <i class="fas fa-procedures fa-2x"></i> </div>
                         <h3 class="font-semibold text-lg mb-2 text-red-700">Cấp 4: Y Tế Chuyên Sâu</h3>
                         <p class="text-sm text-slate-600 mb-3"><strong>Nhu cầu:</strong> Tình trạng không ổn định, cần can thiệp y tế liên tục, theo dõi 24/7, chăm sóc cuối đời.</p>
                         <p class="text-sm text-slate-600"><strong>Giải pháp:</strong> Thường yêu cầu nhập viện hoặc cơ sở chuyên biệt.</p>
@@ -269,64 +258,56 @@
             <div class="mt-8 text-center text-slate-700 bg-blue-50 p-4 rounded-lg border border-blue-200">
                  <p class="font-semibold">Vietnam Care chuyên sâu Cấp Độ 1 & 2, giúp người cao tuổi sống vui khỏe tại nhà, là giải pháp hiệu quả thay vì chăm sóc y tế dài hạn không cần thiết.</p>
                 <p class="mt-2 text-sm">Chúng tôi khác biệt hoàn toàn với người giúp việc nhờ quy trình chuyên nghiệp, đội ngũ đào tạo bài bản và sự giám sát y tế.</p>
-                <p class="mt-2 text-xs italic text-blue-800">Tập trung vào Cấp 1 & 2 giúp chúng tôi cung cấp dịch vụ hỗ trợ chất lượng cao, ngăn ngừa sự suy giảm chức năng không cần thiết và trì hoãn hoặc tránh việc phải vào viện dưỡng lão/cơ sở y tế, giúp cha mẹ sống vui khỏe tại nhà lâu dài hơn.</p> <!-- Reiterated Value Prop -->
+                <p class="mt-2 text-xs italic text-blue-800">Tập trung vào Cấp 1 & 2 giúp chúng tôi cung cấp dịch vụ hỗ trợ chất lượng cao, ngăn ngừa sự suy giảm chức năng không cần thiết và trì hoãn hoặc tránh việc phải vào viện dưỡng lão/cơ sở y tế, giúp cha mẹ sống vui khỏe tại nhà lâu dài hơn.</p>
             </div>
         </div>
     </section>
 
-    <!-- NEW: Specific Services Section -->
+    <!-- Specific Services Section -->
     <section class="section bg-gray-100" id="specific-services">
         <div class="container mx-auto px-6">
             <h2 class="section-title">Dịch Vụ Cụ Thể Của Chúng Tôi</h2>
             <div class="title-underline"></div>
             <p class="section-subtitle">Hiểu rõ hơn về các hoạt động hỗ trợ hàng ngày mà đội ngũ Vietnam Care mang lại, giúp bạn hình dung rõ nét về sự chăm sóc chuyên nghiệp.</p>
-            <!-- Illustration: Optional central banner showing a montage of care activities -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                 <!-- Service Card 1 -->
                 <div class="service-detail-card">
-                    <!-- Icon: Shower/Person getting dressed -->
                     <div class="service-detail-icon"><i class="fas fa-bath"></i></div>
                     <h4 class="font-semibold text-lg mb-2 text-slate-700">Hỗ Trợ Sinh Hoạt Cá Nhân</h4>
                     <p class="text-sm text-slate-600">Hỗ trợ tắm rửa, vệ sinh răng miệng, thay trang phục, đi vệ sinh, giữ gìn vệ sinh thân thể sạch sẽ, thoải mái.</p>
                 </div>
                  <!-- Service Card 2 -->
                 <div class="service-detail-card">
-                    <!-- Icon: Apple/Bowl of food -->
                     <div class="service-detail-icon"><i class="fas fa-utensils"></i></div>
                     <h4 class="font-semibold text-lg mb-2 text-slate-700">Hỗ Trợ Dinh Dưỡng</h4>
                     <p class="text-sm text-slate-600">Chuẩn bị bữa ăn phù hợp khẩu vị và tình trạng sức khỏe, hỗ trợ ăn uống (nếu cần), nhắc nhở uống đủ nước.</p>
                 </div>
                  <!-- Service Card 3 -->
                  <div class="service-detail-card">
-                    <!-- Icon: Two people talking/Walking figures -->
                     <div class="service-detail-icon"><i class="fas fa-walking"></i></div>
                     <h4 class="font-semibold text-lg mb-2 text-slate-700">Đồng Hành & Hoạt Động</h4>
                     <p class="text-sm text-slate-600">Trò chuyện, tâm sự, đọc sách báo, chơi trò chơi nhẹ nhàng, đi dạo, khuyến khích vận động phù hợp.</p>
                 </div>
                  <!-- Service Card 4 -->
                  <div class="service-detail-card">
-                    <!-- Icon: Stethoscope/Heart symbol -->
                     <div class="service-detail-icon"><i class="fas fa-heartbeat"></i></div>
                     <h4 class="font-semibold text-lg mb-2 text-slate-700">Theo Dõi Sức Khỏe</h4>
                     <p class="text-sm text-slate-600">Nhắc nhở hoặc hỗ trợ uống thuốc đúng giờ, đúng liều theo y lệnh; theo dõi dấu hiệu sinh tồn cơ bản; quan sát và báo cáo thay đổi bất thường.</p>
                 </div>
                  <!-- Service Card 5 -->
                  <div class="service-detail-card">
-                    <!-- Icon: Person with cane/Helping hand -->
                     <div class="service-detail-icon"><i class="fas fa-people-arrows"></i></div>
                     <h4 class="font-semibold text-lg mb-2 text-slate-700">Hỗ Trợ Di Chuyển</h4>
                     <p class="text-sm text-slate-600">Hỗ trợ đi lại an toàn trong nhà, sử dụng dụng cụ trợ giúp (gậy, khung đi), phòng ngừa té ngã.</p>
                 </div>
                  <!-- Service Card 6 -->
                  <div class="service-detail-card">
-                    <!-- Icon: Broom/Sparkles -->
                      <div class="service-detail-icon"><i class="fas fa-broom"></i></div>
                     <h4 class="font-semibold text-lg mb-2 text-slate-700">Việc Nhà Nhẹ</h4>
                     <p class="text-sm text-slate-600">Giữ gìn không gian sinh hoạt của người cao tuổi sạch sẽ, gọn gàng; hỗ trợ giặt giũ quần áo, thay ga giường.</p>
                 </div>
-                <!-- Service Card 7 (Optional but good) -->
+                <!-- Service Card 7 -->
                  <div class="service-detail-card">
-                    <!-- Icon: Phone/Chat bubbles -->
                     <div class="service-detail-icon"><i class="fas fa-comments"></i></div>
                     <h4 class="font-semibold text-lg mb-2 text-slate-700">Giao Tiếp Gia Đình</h4>
                     <p class="text-sm text-slate-600">Cập nhật tình hình sức khỏe, hoạt động hàng ngày cho gia đình qua báo cáo định kỳ (Zalo/App), trao đổi kịp thời khi có vấn đề.</p>
@@ -335,60 +316,54 @@
         </div>
     </section>
 
-    <!-- NEW: Our Care Professionals Section -->
+    <!-- Our Care Professionals Section -->
     <section class="section bg-white" id="professionals">
         <div class="container mx-auto px-6">
             <h2 class="section-title">Đội Ngũ Chăm Sóc Viên Của Chúng Tôi</h2>
             <div class="title-underline"></div>
             <p class="section-subtitle">Chuyên nghiệp, tận tâm, và được tuyển chọn kỹ lưỡng vì sự an tâm của bạn.</p>
 
-             <!-- Visual Element: Placeholder for collage/photos -->
+             <!-- Visual Element: Team Photo -->
              <div class="mb-10 text-center">
-                 <!-- Visual: Collage/Photos of professional, smiling caregivers in uniform -->
-                 <div class="inline-block p-4 border border-dashed border-gray-300 text-gray-500">
-                     Placeholder: Hình ảnh đội ngũ chăm sóc viên (chuyên nghiệp, thân thiện)
-                 </div>
+                 <img src="./team-photo-1.jpg"
+                      alt="Đội ngũ Vietnam Care"
+                      class="inline-block rounded-lg shadow-md max-w-full h-auto md:max-w-lg mx-auto border border-gray-200">
+                      <!-- Make sure team-photo-1.jpg path is correct -->
              </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                  <!-- Point 1 -->
                  <div class="professional-point-card">
-                     <!-- Icon: Certificate/Medal -->
                      <div class="professional-icon"><i class="fas fa-certificate"></i></div>
                      <h4 class="font-semibold text-lg mb-2 text-slate-700">Bằng Cấp & Kinh Nghiệm</h4>
                      <p class="text-sm text-slate-600">100% có chứng chỉ Điều dưỡng/Chăm sóc hợp lệ, kinh nghiệm thực tế trong chăm sóc người cao tuổi, người bệnh.</p>
                  </div>
                  <!-- Point 2 -->
                  <div class="professional-point-card">
-                     <!-- Icon: Magnifying glass/Document check -->
                       <div class="professional-icon"><i class="fas fa-user-check"></i></div>
                      <h4 class="font-semibold text-lg mb-2 text-slate-700">Lý Lịch Minh Bạch</h4>
                      <p class="text-sm text-slate-600">Quy trình xác minh danh tính, kiểm tra lý lịch tư pháp, khám sức khỏe đảm bảo, có thông tin tham chiếu rõ ràng.</p>
                  </div>
                   <!-- Point 3 -->
                  <div class="professional-point-card">
-                    <!-- Icon: Brain/Learning symbol -->
                      <div class="professional-icon"><i class="fas fa-brain"></i></div>
                     <h4 class="font-semibold text-lg mb-2 text-slate-700">Đào Tạo Liên Tục</h4>
                     <p class="text-sm text-slate-600">Được đào tạo và cập nhật thường xuyên về kỹ năng chăm sóc chuyên biệt, giao tiếp hiệu quả, an toàn người bệnh, kiến thức y tế cơ bản.</p>
                 </div>
                  <!-- Point 4 -->
                  <div class="professional-point-card">
-                     <!-- Icon: Puzzle pieces fitting -->
                       <div class="professional-icon"><i class="fas fa-puzzle-piece"></i></div>
                      <h4 class="font-semibold text-lg mb-2 text-slate-700">Tuyển Chọn Phù Hợp</h4>
                      <p class="text-sm text-slate-600">Chúng tôi nỗ lực lựa chọn nhân viên không chỉ giỏi chuyên môn mà còn phù hợp về tính cách, kinh nghiệm với từng khách hàng cụ thể.</p>
                  </div>
                  <!-- Point 5 -->
                  <div class="professional-point-card">
-                     <!-- Icon: Heart/Smiling face -->
                       <div class="professional-icon"><i class="fas fa-heart"></i></div>
                      <h4 class="font-semibold text-lg mb-2 text-slate-700">Thái Độ Tận Tâm</h4>
                      <p class="text-sm text-slate-600">Đề cao sự đồng cảm, kiên nhẫn, tôn trọng và tinh thần trách nhiệm trong từng hành động chăm sóc.</p>
                  </div>
-                 <!-- Point 6 (Optional but good) -->
+                 <!-- Point 6 -->
                  <div class="professional-point-card">
-                    <!-- Icon: Supervisor/Support structure -->
                      <div class="professional-icon"><i class="fas fa-users-cog"></i></div>
                     <h4 class="font-semibold text-lg mb-2 text-slate-700">Quản Lý & Giám Sát</h4>
                     <p class="text-sm text-slate-600">Có Quản lý Ca chuyên trách giám sát, hỗ trợ nhân viên và là đầu mối liên lạc chính với gia đình, đảm bảo chất lượng dịch vụ.</p>
@@ -417,7 +392,6 @@
                                 <p class="text-sm text-slate-500">Giám Đốc Marketing, Hà Nội</p>
                             </div>
                         </div>
-                        <!-- Optional Context: e.g., Caring for elderly mother with mobility issues -->
                         <p class="text-slate-600 italic mb-4 text-base">"Công việc bận rộn nên tôi không thể luôn ở bên mẹ. Từ khi có Vietnam Care, tôi yên tâm làm việc hẳn. Các bạn điều dưỡng chăm sóc mẹ rất chu đáo, lại báo cáo tình hình rõ ràng. Dịch vụ chuyên nghiệp thật sự."</p>
                     </div>
                     <div class="star-rating text-sm"> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> </div>
@@ -432,7 +406,6 @@
                                 <p class="text-sm text-slate-500">Chủ Doanh Nghiệp, TP. HCM</p>
                             </div>
                         </div>
-                         <!-- Optional Context: e.g., Needed companionship and safety supervision for father -->
                         <p class="text-slate-600 italic mb-4 text-base">"Khác hẳn so với thuê người giúp việc trước đây. Bố tôi được chăm sóc bài bản, sức khỏe ổn định hơn nhiều. Tôi đánh giá cao sự chuyên nghiệp và trách nhiệm của Vietnam Care."</p>
                     </div>
                      <div class="star-rating text-sm"> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> </div>
@@ -447,7 +420,6 @@
                                 <p class="text-sm text-slate-500">Đà Nẵng</p>
                             </div>
                         </div>
-                        <!-- Optional Context: e.g., Post-hospital recovery care for mother -->
                         <p class="text-slate-600 italic mb-4 text-base">"Tìm được dịch vụ uy tín như Vietnam Care thực sự may mắn. Mẹ tôi vui vẻ, khỏe khoắn hơn, gia đình tôi cũng bớt lo lắng đi nhiều. Rất đáng tiền."</p>
                     </div>
                     <div class="star-rating text-sm"> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> </div>
@@ -465,8 +437,6 @@
             <p class="section-subtitle">Chúng tôi cung cấp các gói dịch vụ linh hoạt, được thiết kế riêng theo nhu cầu của từng gia đình.</p>
 
             <div class="max-w-lg mx-auto pricing-box-modern text-center">
-                 <!-- Icon: Transparency/Value (optional) -->
-                 <!-- <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-balance-scale-right"></i></div> -->
                 <h3 class="text-2xl font-semibold text-slate-800 mb-3">Gói Chăm Sóc Toàn Diện</h3>
                  <p class="text-sm text-slate-500 mb-4">Lựa chọn tối ưu cho sự chăm sóc chuyên nghiệp và an tâm dài lâu</p>
 
@@ -485,12 +455,12 @@
                     <li><i class="fas fa-check-circle"></i> Theo dõi sức khỏe & báo cáo gia đình định kỳ</li>
                     <li><i class="fas fa-check-circle"></i> Hỗ trợ quản lý & nhắc nhở dùng thuốc</li>
                     <li><i class="fas fa-check-circle"></i> Giám sát & hỗ trợ từ Quản lý ca</li>
-                     <li><i class="fas fa-check-circle text-blue-500"></i> Linh hoạt thời gian theo yêu cầu gia đình</li> <!-- Example Additional Feature -->
+                     <li><i class="fas fa-check-circle text-blue-500"></i> Linh hoạt thời gian theo yêu cầu gia đình</li>
                 </ul>
                 <a href="#contact" class="hero-cta-button text-white font-semibold px-8 py-3 rounded-full text-base inline-block">
                     Yêu Cầu Tư Vấn Gói Dịch Vụ
                 </a>
-                 <p class="text-xs text-slate-500 mt-4">Đầu tư vào dịch vụ chuyên nghiệp là đầu tư cho sức khỏe, sự an toàn của cha mẹ và sự an tâm của chính bạn.</p> <!-- Value Statement -->
+                 <p class="text-xs text-slate-500 mt-4">Đầu tư vào dịch vụ chuyên nghiệp là đầu tư cho sức khỏe, sự an toàn của cha mẹ và sự an tâm của chính bạn.</p>
             </div>
         </div>
     </section>
@@ -500,11 +470,11 @@
         <div class="container mx-auto px-6">
             <h2 class="mb-4">Tìm Giải Pháp Chăm Sóc Tốt Nhất Cho Cha Mẹ?</h2>
             <p>Liên hệ Vietnam Care ngay hôm nay. Chuyên gia của chúng tôi sẽ tư vấn giải pháp tối ưu, giúp bạn an tâm công tác trong khi cha mẹ tận hưởng tuổi già an vui, khỏe mạnh.</p>
-            <p class="text-sm text-blue-200 mb-8"><i>Chỉ một cuộc gọi hoặc tin nhắn Zalo để bắt đầu hành trình chăm sóc tốt nhất cho cha mẹ. Nhận tư vấn miễn phí, không ràng buộc ngay hôm nay!</i></p> <!-- Ease & Benefit Reinforcement -->
+            <p class="text-sm text-blue-200 mb-8"><i>Chỉ một cuộc gọi hoặc tin nhắn Zalo để bắt đầu hành trình chăm sóc tốt nhất cho cha mẹ. Nhận tư vấn miễn phí, không ràng buộc ngay hôm nay!</i></p>
 
             <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-                <a href="https://zalo.me/YOUR_ZALO_NUMBER" target="_blank" rel="noopener noreferrer" class="cta-button-secondary inline-flex items-center space-x-2">
-                    <i class="fab fa-rocketchat"></i> <!-- Consider Zalo specific icon -->
+                <a href="https://zalo.me/0966268008" target="_blank" rel="noopener noreferrer" class="cta-button-secondary inline-flex items-center space-x-2">
+                    <i class="fab fa-rocketchat"></i> <!-- Using rocketchat as Zalo icon proxy -->
                     <span>Nhắn Zalo Ngay</span>
                 </a>
                 <a href="tel:+84966268008" class="cta-button-secondary inline-flex items-center space-x-2">
@@ -514,9 +484,7 @@
             </div>
              <!-- Optional Trust Badges Area -->
              <div class="mt-6 text-xs text-blue-200 space-x-4">
-                 <!-- Trust Badge: Free Consultation -->
                  <span><i class="fas fa-check-circle"></i> Tư Vấn Miễn Phí</span>
-                 <!-- Trust Badge: Confidential -->
                   <span><i class="fas fa-lock"></i> Bảo Mật Thông Tin</span>
              </div>
         </div>
@@ -529,7 +497,7 @@
                 <!-- Column 1: Logo & About -->
                 <div class="col-span-1 md:col-span-2">
                      <a href="#" class="flex items-center space-x-2 mb-4">
-                        <i class="fas fa-heartbeat text-blue-500 text-3xl"></i> <!-- Consider custom logo icon -->
+                        <i class="fas fa-heartbeat text-blue-500 text-3xl"></i>
                         <span class="logo-text">Vietnam Care</span>
                     </a>
                     <p class="text-slate-400 text-sm leading-relaxed max-w-md">
@@ -537,8 +505,8 @@
                     </p>
                      <p class="mt-4 text-sm text-slate-400">Hotline: <a href="tel:+84966268008" class="font-semibold text-slate-200 hover:text-white">0966 268 008</a></p>
                      <p class="text-sm text-slate-400">Email: <a href="mailto:support@vietnamcare.vn" class="font-semibold text-slate-200 hover:text-white">support@vietnamcare.vn</a></p>
-                     <p class="text-sm text-slate-400">Zalo: <a href="https://zalo.me/YOUR_ZALO_NUMBER" target="_blank" rel="noopener noreferrer" class="font-semibold text-slate-200 hover:text-white">Vietnam Care OA</a></p> <!-- Added Zalo Link -->
-                     <!-- <p class="text-sm text-slate-400">Địa chỉ: [Your Address Here]</p> -->
+                     <p class="text-sm text-slate-400">Zalo: <a href="https://zalo.me/0966268008" target="_blank" rel="noopener noreferrer" class="font-semibold text-slate-200 hover:text-white">0966 268 008</a></p> <!-- Updated Zalo Link -->
+                     <!-- <p class="text-sm text-slate-400">Địa chỉ: [Your Address Here - Add if applicable]</p> -->
                 </div>
 
                 <!-- Column 2: Quick Links -->
@@ -547,8 +515,8 @@
                     <ul class="space-y-2 text-sm">
                         <li><a href="#services" class="hover:text-white">Vì Sao Chọn Chúng Tôi</a></li>
                         <li><a href="#care-levels" class="hover:text-white">Các Cấp Độ Chăm Sóc</a></li>
-                         <li><a href="#specific-services" class="hover:text-white">Dịch Vụ Cụ Thể</a></li> <!-- Added Link -->
-                         <li><a href="#professionals" class="hover:text-white">Đội Ngũ Chăm Sóc Viên</a></li> <!-- Added Link -->
+                         <li><a href="#specific-services" class="hover:text-white">Dịch Vụ Cụ Thể</a></li>
+                         <li><a href="#professionals" class="hover:text-white">Đội Ngũ Chăm Sóc Viên</a></li>
                         <li><a href="#testimonials" class="hover:text-white">Khách Hàng Chia Sẻ</a></li>
                         <li><a href="#pricing" class="hover:text-white">Gói Dịch Vụ</a></li>
                         <li><a href="#contact" class="hover:text-white">Liên Hệ</a></li>
@@ -559,9 +527,9 @@
                 <div>
                      <h4 class="uppercase text-sm font-semibold tracking-wider text-slate-400 mb-4">Kết Nối Với Vietnam Care</h4>
                      <div class="flex space-x-4">
-                        <a href="#" aria-label="Facebook" class="text-xl hover:text-white"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://zalo.me/YOUR_ZALO_NUMBER" target="_blank" rel="noopener noreferrer" aria-label="Zalo" class="text-xl hover:text-white"><i class="fas fa-comment-dots"></i></a> <!-- Re-using Zalo Link -->
-                        <a href="#" aria-label="YouTube" class="text-xl hover:text-white"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Facebook" class="text-xl hover:text-white"><i class="fab fa-facebook-f"></i></a> <!-- Add actual Facebook link -->
+                        <a href="https://zalo.me/0966268008" target="_blank" rel="noopener noreferrer" aria-label="Zalo" class="text-xl hover:text-white"><i class="fas fa-comment-dots"></i></a> <!-- Using comment-dots for Zalo -->
+                        <a href="#" aria-label="YouTube" class="text-xl hover:text-white"><i class="fab fa-youtube"></i></a> <!-- Add actual YouTube link -->
                      </div>
                 </div>
             </div>
@@ -569,6 +537,7 @@
             <!-- Bottom Footer -->
             <div class="border-t border-slate-700 pt-6 text-center text-sm text-slate-400">
                 <p>© 2025 Vietnam Care. Chuyên nghiệp - Tận tâm - Đáng tin cậy.</p>
+                 <!-- Add links if you have Privacy Policy / Terms pages -->
                  <!-- <p class="mt-2"> <a href="/privacy-policy" class="hover:text-white underline">Chính sách bảo mật</a> | <a href="/terms-of-service" class="hover:text-white underline">Điều khoản sử dụng</a> </p> -->
             </div>
         </div>
